@@ -1,0 +1,98 @@
+.LoginPage {
+  display: inline-flex;
+}
+.dashpage {
+  display: inline-flex;
+}
+.Wizard{
+  display: inline-flex;
+}
+.flexMiddle {
+  width: 52vw;
+  background-color: white;
+  height: 100vh;
+  text-align: center;
+  text-orientation: sideways-right;
+}
+
+.flexSides {
+  background-color: #afd4c0;
+  width: 24vw;
+  height: 100vh;
+  color: #afd4c0;
+}
+.flexMiddleDashPage {
+  width: 52vw;
+  background: linear-gradient(top, #e2f3ea, #ffffff);
+  height: 88vh;
+  text-align: center;
+  text-orientation: sideways-right;
+
+}
+
+.flexSidesDashPage {
+  background-color: #afd4c0;
+  width: 24vw;
+  height: 88vh;
+  color: #afd4c0;
+}
+
+.insideBox {
+  position: relative;
+  top: 40vh;
+  padding: 20px;
+  text-align: center;
+}
+#houseImage {
+  position: relative;
+  top: 30vh;
+}
+input, textarea {
+  width: 25vw;
+  border-radius: 5px;
+}
+
+input[type=submit]{
+  margin: 5px;
+  width: 5vw;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+#registerButton {
+  background-color: #3B5249;
+  color: white;
+}
+
+#loginButton {
+  background-color: #8AEA92;
+  color: white;
+}
+input[type=submit]:hover{
+  opacity: .5;
+}
+.headerDB {
+  background-color: #519872;
+  height: 10vh;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 150px;
+  color: white;
+  font-size: 2.5em;
+}
+#imgOnHeader {
+  zoom: .4;
+}
+
+#logoutButton {
+  border: none;
+  border-radius: 5px;
+  margin-left: 250px;
+  padding: 10px;
+  background-color: #519872;
+  color: white;
+}
+#logoutButton:hover {
+  background-color: #3B5249;
+}
